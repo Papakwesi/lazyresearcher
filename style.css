@@ -1,0 +1,171 @@
+body {
+  background: linear-gradient(90deg, rgb(225, 234, 235), rgba(168, 186, 191, 1.0));
+  /*background: rgb(225,234,235);*/
+  /*background: radial-gradient(circle, rgba(225,234,235,0.8035363803724614) 0%, rgba(168,186,191,1) 100%);*/
+  /*background: url("https://th.bing.com/th/id/OIP.nmgtc2s9j3MIatqX19la4QHaEo?pid=ImgDet&rs=1");*/
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+  background-size: cover;
+  padding: 30px 80px;
+  /*margin: 50px;*/
+}
+
+/*Headers*/
+h3 {
+  color: rgb(135, 62, 35);
+  border-radius: 1rem;
+  width: 80%;
+}
+
+h4 {
+  color: #177bad;
+  border-radius: 1rem;
+  width: 60%;
+}
+
+/*Top nav*/
+#topnav{display:flex; width:650px; margin:30px 0 0 0; padding:0; font-size:20px; font-weight: 30px; font-family:Verdana, Arial, Helvetica, sans-serif; text-align:right;}
+#topnav ul{margin:0; padding:0; list-style:none;}
+#topnav li{display:inline; margin-right:35px;}
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{margin:0; padding:0 3px 10px 3px; color:#02CCFC; /*color:#FFFFFF;*/ background-color: transparent; /*border-bottom:1px solid #000000;*/}
+#topnav li a:hover, #topnav a{/*color:#02CCFC;*/color:#FFFFFF; background-color: transparent; border-bottom-color:#02CCFC;}
+#topnav li.last{margin-right:0;}
+
+/*Links*/
+a:hover {
+  color: indianred;
+}
+
+/*main grid*/
+#grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-column-gap: 50px;
+}
+
+.container {
+  border-left-color: red;
+}
+
+.sections {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*Logo*/
+.logo-img:hover {
+  box-shadow: -50px 60px 15px 5px rgba(0,0,0,0.4);
+  transition: ease-in-out 1s;
+}
+
+/*Links for Topics*/
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+/*Submit Buttom*/
+#submit-buttom {
+  background: rgb(16, 163, 222);
+  margin: 20px 10px;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.5s ease-in-out;
+}
+
+#submit-buttom:hover {
+  background: rgb(176, 113, 227);
+  padding: 10px;
+  color: black;
+}
+
+/*Topics hover effects*/
+#topic:hover {
+  color: rgba(92, 92, 92, 1.0);
+  text-decoration: none;
+  font-style: italic;
+  font-family: "Lato" sans-serif;
+  letter-spacing: 1px;
+  cursor: pointer;
+  /*margin: 0.75em;*/
+}
+
+/*Ads*/
+#ad {
+  transition: all 1s ease-in-out
+}
+
+#ad:hover {
+  padding: 20px;
+}
+
+/*Comment*/
+.form-input {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*contact Us*/
+#contact-us {
+  color: darkcyan;
+  font-variant: small-caps;
+}
+
+@keyframes contact-us {
+  0% {background: yellow;  left: 0px; right: 0px;}
+  50% {background: white; left: 50px; right: 0px;}
+  100% {background: black; left: 0px; right: 0px;}
+}
+
+#contact-us {
+  position: relative;
+  animation-name: contact-us;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;animation-direction: alternate;
+  animation-play-state: running;
+  width: 70%;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+/*.fa:hover {
+  opacity: 0.7;
+}*/
+
+/* Set a specific color for each brand */
+
+/* Twitter */
+/*.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}*/
+
+/* Facebook */
+/*.fa-facebook {
+  background: #3B5998;
+  color: white;
+}*/
+
+/* Instagram */
+/*.fa-instagram {
+  background: radial-gradient(yellow, orange, darkviolet);
+  color: white;
+}*/
