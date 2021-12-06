@@ -169,3 +169,9 @@ a:hover {
   background: radial-gradient(yellow, orange, darkviolet);
   color: white;
 }*/
+
+@media (max-width: 900px){
+  p {
+    font-size: 20px;
+  }
+}
